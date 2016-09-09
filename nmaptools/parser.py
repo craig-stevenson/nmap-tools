@@ -1,4 +1,4 @@
-from xml.etree.cElementTree import parse
+from xml.etree.ElementTree import parse
 
 
 def parse_nmap_xml(file):

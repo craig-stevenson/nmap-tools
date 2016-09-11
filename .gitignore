@@ -3,4 +3,5 @@
 .idea/modules.xml
 .idea/nmaptools.iml
 .idea/workspace.xml
+.idea/vcs.xml
 nmaptools/__pycache__/

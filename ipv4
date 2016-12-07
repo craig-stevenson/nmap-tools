@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+
+from nmaptools.nmapscan import NmapScan
+
+FILE = '/home/developer/dev/nmaptools/tests/nmap_sample.xml'
+
+
+def print_ipv4():
+    """ """
+    scan = NmapScan(FILE)
+    for ip in scan.addresses_ipv4:
+        print(ip)
+
+if __name__ == '__main__':
+    print_ipv4()

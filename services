@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+
+from nmaptools.nmapscan import NmapScan
+
+FILE = '/home/developer/dev/nmaptools/tests/nmap_sample.xml'
+
+
+def print_services():
+    """ """
+    scan = NmapScan(FILE)
+    for s in scan.services:
+        print(s)
+
+if __name__ == '__main__':
+    print_services()
